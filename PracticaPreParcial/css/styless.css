@@ -1,0 +1,46 @@
+.contenedor{
+      display: flex;
+      flex-direction: column;   /* Uno debajo del otro (opcional) */
+      align-items: center;
+      gap: 10px;
+}
+
+.Tarjeta {
+    background-color: rgba(224, 219, 226, 0.87);  
+
+    border-color: rgb(209, 3, 3);
+    border-radius: 30px;
+    border-style: dotted;
+    border-width: 5px;
+
+    box-sizing: content-box;
+    height: 420px;
+    width: 250px;
+    margin: 5px;
+    padding: 10px;
+
+    text-align: center;
+}
+.InputUser{
+    text-align: center;
+    height: 15px;
+    justify-content: center;
+    text-align: center;
+
+ 
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: red;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif,
+   
+}
+.IngresoUser{
+   background-color: rgb(219, 161, 161);
+  
+
+}
