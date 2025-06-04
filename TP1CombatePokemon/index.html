@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Guera Pokemon" content="width=device-width, initial-scale=1.0">
+    <title>Guerra Pokemon</title>
+    <link rel="stylesheet" href="C:\Users\pc\Desktop\Nueva carpeta\TP1CombatePokemon\styless\styles.css">
+</head>
+<body>
+
+    <div id="Borrado">
+        <span  class="contenedor">
+            <div>
+                <img id="ImagenUno" class="TituloPokemon" style="width: 170px"  alt="Imagen del Pokémon">
+                <h2 id="NombreUno" class="TituloPokemon"></h2>
+                <h2 id="AtaqueUno" class="Ataque"></h2>
+                <h2 id="DefensaUno"  class="Defensa" ></h2>
+            </div>
+            
+                
+          
+            <div>
+                    <img id="ImagenDos" class="TituloPokemon"  style="width: 170px" alt="Imagen del Pokémon">
+                    <h2 id="NombreDos" class="TituloPokemon"></h2>
+                    <h2 id="AtaqueDos" class="Ataque"></h2>
+                    <h2 id="DefensaDos"  class="Defensa" ></h2>
+            </div>
+           
+           
+            <div>
+                <img id="ImagenTres" class="TituloPokemon" style="width: 170px"  alt="Imagen del Pokémon">
+                <h2 id="NombreTres" class="TituloPokemon"></h2>
+                <h2 id="AtaqueTres" class="Ataque"></h2>
+                <h2 id="DefensaTres"  class="Defensa" ></h2>
+            </div>
+            </span>
+            <span class="contenedor">
+                <div>
+                    <h2 id="TotalAtkA" class="TituloPokemon"></h2>
+                 <h2 id="TotalDefA" class="TituloPokemon"></h2>
+                </div>
+            </span>
+         
+
+        <span class="contenedor">
+         <button id="DadosEUno" class="boton">Tirar dados Team A</button>
+        </span>
+
+        <span class="muestra2">
+            <h1 id="TiradaAUno"></h1>
+            <h1 id="TiradaADos"></h1>
+            <h1 id="TiradaATres"></h1>
+        </span>  
+   </div>
+
+    <p class ="separador" id="Separador">Vs</p>
+
+ 
+    <div id="Borrado2">
+    <span class="contenedor">
+    <div>
+            <img id="ImagenCuatro" class="TituloPokemon" style="width: 170px"  alt="Imagen del Pokémon">
+            <h2 id="NombreCuatro" class="TituloPokemon"></h2>
+            <h2 id="AtaqueCuatro" class="Ataque"></h2>
+            <h2 id="DefensaCuatro"  class="Defensa" ></h2>
+    </div>    
+
+    <div>
+             <img id="ImagenCinco" class="TituloPokemon" style="width: 170px"  alt="Imagen del Pokémon">
+             <h2 id="NombreCinco" class="TituloPokemon"></h2>
+             <h2 id="AtaqueCinco" class="Ataque"></h2>
+             <h2 id="DefensaCinco"  class="Defensa" ></h2>
+    </div>
+
+    <div>
+             <img id="ImagenSeis" class="TituloPokemon" style="width: 170px"  alt="Imagen del Pokémon">
+             <h2 id="NombreSeis" class="TituloPokemon"></h2>
+             <h2 id="AtaqueSeis" class="Ataque"></h2>
+             <h2 id="DefensaSeis"  class="Defensa" ></h2>
+    </div>
+    </span>
+    
+
+            <span class="contenedor">
+                <div>
+                <h2 id="TotalAtkB" class="TituloPokemon"></h2>
+                 <h2 id="TotalDefB" class="TituloPokemon"></h2>
+                </div>
+            </span>
+            
+   
+            <span class="contenedor">
+                 <button id="DadosEDos" class="boton">Tirar dados Team B</button>
+            </span>
+            
+
+        <span class="muestra2">
+            <h1 id="TiradaBUno"></h1>
+            <h1 id="TiradaBDos"></h1>
+            <h1 id="TiradaBTres"></h1>
+        </span> 
+     </div> 
+        
+
+    <button id="CombatePokemon" disabled="true">Iniciar Combate</button>
+                    <h1 id="CasoEmpate" class="muestra"></h1>
+                    <h1 id="Datos" class="muestra"></h1>
+            <span class="contenedor">
+                    <h1 id="EquipoGanadorUno" class="nombres"></h1>
+                    <img id="ImagenEquipoGanadorUno"  style="width: 170px;">
+                    <h1 id="EquipoGanadorDos" class="nombres"></h1>
+                    <img id="ImagenEquipoGanadorDos"  style="width: 170px;">
+                    <h1 id="EquipoGanadorTres" class="nombres"></h1>
+                    <img id="ImagenEquipoGanadorTres"  style="width: 170px;">
+            </span>
+
+                <span class="contenedor">
+                    <div>
+                        <h1 id="stats" class="muestra"></h1>
+                        <h2 id="TotalAtakEquipoGanador" class="Ataque"></h2>
+                        <h2 id="TotalDefeEquipoGanador" class="Ataque"></h2>
+                    </div>  
+                </span>
+                <span class="contenedor">
+                    <div>
+                        <h1 id="stats2" class="muestra"></h1>
+                        <h2 id="TotalAtakEquipoPerdedor" class="Ataque"></h2>
+                        <h2 id="TotalDefeEquipoPerdedor" class="Ataque"></h2>
+                    </div>  
+                </span>
+                <span class="contenedor">
+                    <div>
+                        <h1 id="Calculo" class="muestra"></h1>
+
+                            <h2 id="DiferenciaA" class="perdedor"></h2>
+                            <h2 id="DiferenciaB" class="perdedor"></h2>
+                    </div>  
+                </span>  
+                <span class="contenedor">
+                <div>
+                        <h1 id="Calculo2" class="muestra"></h1>
+                     <h1 id="TiradaUno" class="perdedor"></h1>
+                     <h1 id="TiradaDos" class="perdedor"></h1>
+                     <h1 id="CasoEmpate2"  class="muestra"> </h1>
+                </div>
+                </span>                
+                 
+                           
+
+</body>
+
+<script src="C:\Users\pc\Desktop\Nueva carpeta\TP1CombatePokemon\funciones\fn.js"></script>
+</html>
