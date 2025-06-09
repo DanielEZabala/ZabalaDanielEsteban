@@ -1,0 +1,25 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    justify-items: stretch;
+   
+    
+}
+
+.titulo{
+    font-family: monospace;
+    color: rgb(38, 2, 71);
+}
+.decoracion{
+    color:sienna;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+}
+
+.Imagen{
+      height: 135px;
+        width: 135px;
+
+}
