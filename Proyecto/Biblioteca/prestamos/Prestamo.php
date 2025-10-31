@@ -12,11 +12,7 @@ if ($conn->connect_error) {
 }
 
 // Capturar datos del formulario
-$nombre    = $_POST['nombre'];
-$apellido  = $_POST['apellido'];
-$email     = $_POST['email'];
-$telefono  = $_POST['telefono'];
-$direccion = $_POST['direccion'];
+$dni = $_POST['dni'];
 $libro_id  = $_POST['libro_id'];
 
 // 1. Verificar stock del libro

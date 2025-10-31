@@ -5,27 +5,27 @@
     <title>Registrar Libro</title>
 </head>
 <body>
-    <h2>📖 Registro de Libro</h2>
-    <form action="/Usuario.php" method="POST">
-        <label>Título:</label><br>
-        <input type="text" name="titulo" required><br><br>
+    <h2>Ingreso Usuario</h2>
+<form action="Prestamo.php" method="POST">
+    <label>Nombre:</label><br>
+    <input type="text" name="nombre" required><br><br>
 
-        <label>Año:</label><br>
-        <input type="number" name="anio" min="1000" max="9999" required><br><br>
+    <label>Apellido:</label><br>
+    <input type="text" name="apellido" required><br><br>
+    
+    <label>DNI:</label><br>
+    <input type="text" name="dni" required><br><br>
 
-        <label>Autor:</label><br>
-        <input type="text" name="autor" required><br><br>
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
 
-        <label>Categoría:</label><br>
-        <input type="text" name="categoria" required><br><br>
+    <label>Teléfono:</label><br>
+    <input type="text" name="telefono" required><br><br>
 
-        <label>Editorial:</label><br>
-        <input type="text" name="editorial" required><br><br>
+    <label>Dirección:</label><br>
+    <input type="text" name="direccion" required><br><br>
 
-        <label>Stock:</label><br>
-        <input type="number" name="stock" min="1" value="1" required><br><br>
-
-        <button type="submit">Registrar Libro</button>
-    </form>
+    <button type="submit">Registrar Usuario</button>
+</form>
 </body>
 </html>
