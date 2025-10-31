@@ -9,7 +9,8 @@ CREATE TABLE usuarios (
     apellido VARCHAR(50) NOT NULL,
     dni VARCHAR(15) UNIQUE NOT NULL,
     correo_electronico VARCHAR(100) UNIQUE NOT NULL,
-    direccion VARCHAR(150)
+    direccion VARCHAR(150),
+    telefono VARCHAR(20) NOT NULL
 );
 
 -- Tabla de Libros

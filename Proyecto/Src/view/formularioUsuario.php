@@ -6,7 +6,7 @@
 </head>
 <body>
     <h2>Ingreso Usuario</h2>
-<form action="../dev/Prestamo.php" method="POST">
+<form action="../dev/Usuario.php" method="POST">
     <label>Nombre:</label><br>
     <input type="text" name="nombre" required><br><br>
 
@@ -24,6 +24,7 @@
 
     <label>Dirección:</label><br>
     <input type="text" name="direccion" required><br><br>
+
 
     <button type="submit">Registrar Usuario</button>
 </form>

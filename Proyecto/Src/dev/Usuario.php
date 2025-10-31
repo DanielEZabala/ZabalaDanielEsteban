@@ -22,8 +22,8 @@ $telefono  = $_POST['telefono'];
 $direccion = $_POST['direccion'];
 
 // Insertar en la base de datos
-$sql = "INSERT INTO usuarios (nombre, apellido,dni, email, telefono, direccion) 
-        VALUES ('$nombre', '$apellido','$dni ,'$email', '$telefono', '$direccion')";
+$sql = "INSERT INTO usuarios (nombre, apellido, dni, email, telefono, direccion) 
+        VALUES ('$nombre', '$apellido','$dni' ,'$email', '$telefono', '$direccion')";
 
 if ($conn->query($sql) === TRUE) {
     echo "✅ Usuario registrado correctamente";
