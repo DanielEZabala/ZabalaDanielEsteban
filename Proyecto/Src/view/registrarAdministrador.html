@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Registrar Administrador</title>
+</head>
+<body>
+  <h2>Registrar Administrador </h2>
+  <form action="../dev/Administrador.php" method="POST">
+    <label>Usuario:</label><br>
+    <input type="text" name="usuario" required maxlength="50"><br><br>
+
+    <label>Contraseña:</label><br>
+    <input type="password" name="contraseña" required minlength="6"><br><br>
+
+    <label>Confirmar contraseña:</label><br>
+    <input type="password" name="confirm_contraseña" required minlength="6"><br><br>
+
+    <button type="submit">Crear administrador</button>
+  </form>
+</body>
+</html>
