@@ -6,6 +6,7 @@ if ($conn->connect_error) die("Error: " . $conn->connect_error);
 
 $result = $conn->query("SELECT id, titulo, stock FROM libros");
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -94,4 +95,5 @@ $result = $conn->query("SELECT id, titulo, stock FROM libros");
 
 </body>
 </html>
+
 
