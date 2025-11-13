@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Registrar Administrador</title>
+</head>
+<body>
+  <h2>Registrar Administrador </h2>
+  <form action="../dev/Administrador.php" method="POST">
+    <label>Usuario:</label><br>
+    <input type="text" name="usuario" required maxlength="50"><br><br>
+
+    <label>Contraseña:</label><br>
+    <input type="password" name="contraseña" required minlength="6"><br><br>
+
+    <label>Confirmar contraseña:</label><br>
+    <input type="password" name="confirm_contraseña" required minlength="6"><br><br>
+
+    <button type="submit">Crear administrador</button>
+  </form>
+  <a href="../../index.php" class="btn-volver-fijo">🏠 Volver al inicio</a>
+  <style>
+.btn-volver-fijo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+}
+.btn-volver-fijo:hover {
+    background-color: #0056b3;
+}
+</style>
+</body>
+</html>
