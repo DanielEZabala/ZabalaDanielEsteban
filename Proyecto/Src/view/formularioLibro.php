@@ -1,3 +1,11 @@
+<?php
+require_once '../dev/Checkeo_Session_Admin.php';
+
+$conn = new mysqli("localhost", "root", "", "biblioteca");
+if ($conn->connect_error) die("Error: " . $conn->connect_error);
+
+$result = $conn->query("SELECT id, titulo, stock FROM libros");
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -86,3 +94,4 @@
 
 </body>
 </html>
+
